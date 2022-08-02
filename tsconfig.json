@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
     "lib": [
       "dom",
       "dom.iterable",
+      "ES6",
       "esnext"
     ],
     "allowJs": true,
@@ -18,7 +19,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react",
+    "strictNullChecks": false
   },
   "include": [
     "src"
